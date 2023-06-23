@@ -1,0 +1,13 @@
+[Unit]
+Description=XMRIG Service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=xmrig -c /mnt/config.json 
+
+[Install]
+WantedBy=multi-user.target
