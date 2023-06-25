@@ -10,6 +10,7 @@ On windows use something like <a href="https://rufus.ie/en/">rufus</a>
 
 After that you will either have to copy your existing xmrig configuration into the mounted partition called COWMOS or create a new configuration here https://xmrig.com/wizard. The configuration should be saved under the name config.json
 
+Now reboot your computer and <a href="https://www.google.com/search?q=boot+from+usb&">boot from the usb </a>
 # Compile from source
 
 You will have to be using archlinux
