@@ -142,3 +142,6 @@ pacman-contrib
 wget
 # Monero
 xmrig
+# Other
+jq
+tar
