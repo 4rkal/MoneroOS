@@ -43,5 +43,5 @@ While full step-by-step instructions to create bootable media out of the MoneroO
 This is a basic TODO list. If you have any recommendations please don't hesitate to create a GitHub issue.
 - [ ] Companion application
 - [ ] More user-friendly guides (Windows, etc.)
-- [ ] <a href="https://github.com/Bendr0id/xmrigCC">XMRigCC</a> support
+- [x] <a href="https://github.com/Bendr0id/xmrigCC">XMRigCC</a> support
 - [ ] <a href="https://p2pool.io/#pool">P2Pool</a> / <a href="https://p2pool.io/mini/#pool">P2Pool-Mini</a> support and/or instructions
