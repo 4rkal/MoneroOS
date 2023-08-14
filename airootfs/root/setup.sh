@@ -1,5 +1,5 @@
 #!/bin/bash
-profile=$(whiptail --title "Welcome to MonerOS configuration wizard" --menu "Choose a mining profile" 20 60 10\
+profile=$(whiptail --title "Welcome to MoneroOS configuration wizard" --menu "Choose a mining profile" 20 60 10\
     "1." "Mine to a centralized pool (nanopool,moneroocean etc)" \
     "2." "Mine to your existing p2pool node (pinodexmr or custom)" \
     "3." "Mine with XmrigCC" \
