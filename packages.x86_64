@@ -143,5 +143,4 @@ wget
 # Monero
 xmrig
 # Other
-jq
-tar
+net-tools
