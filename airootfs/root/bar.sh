@@ -18,7 +18,7 @@ main (){
 
     # Xmrig Status
     window "XMRig status" "red"
-    append "`tail -f .xmrig_logs.txt`" #might not be the best implementation
+    append "`journalctl -n 15 -u xmrig.service`"
     endwin
 
 
