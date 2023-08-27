@@ -14,8 +14,8 @@ MoneroOS is a live OS designed to easily begin mining <a href="getmonero.org">Mo
 
 While full step-by-step instructions to create bootable media out of the MoneroOS `.img` file are outside of the scope of this README at this time, resources are linked below for your convenience. Once you have chosen a given method or program for the OS you'll be writing MoneroOS *from*, either follow the documentation they provide, or use your preferred search engine to search for more detailed instructions.  
 
- - Linux: <a href="https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_basic_command_line_utilities">USB flash installation medium (ArchWiki)</a>, <a href="https://unetbootin.github.io/">UNetbootin</a>, <a href="https://github.com/mbusb/multibootusb">multibootusb</a>, <a href="https://etcher.balena.io/">balenaEtcher</a>
- - Windows: <a href="https://unetbootin.github.io/">UNetbootin</a>, <a href="https://rufus.ie/en/">Rufus</a>, <a href="https://github.com/mbusb/multibootusb">multibootusb</a>, <a href="https://etcher.balena.io/">balenaEtcher</a>
+ - Linux: <a href="https://wiki.archlinux.org/title/USB_flash_installation_medium#Using_basic_command_line_utilities">USB flash installation medium (ArchWiki)</a>, <a href="https://unetbootin.github.io/">UNetbootin</a>, <a href="https://github.com/mbusb/multibootusb">multibootusb</a>, <a href="https://etcher.balena.io/">balenaEtcher (recommended for beginners)</a>
+ - Windows: <a href="https://unetbootin.github.io/">UNetbootin</a>, <a href="https://rufus.ie/en/">Rufus</a>, <a href="https://github.com/mbusb/multibootusb">multibootusb</a>, <a href="https://etcher.balena.io/">balenaEtcher (recommended for beginners)</a>
  - Mac: <a href="https://unetbootin.github.io/">UNetbootin</a>, <a href="https://etcher.balena.io/">balenaEtcher</a>
    - ***Note:*** While it may be possible to create bootable media using a Mac with the M1 or M2 chip, MoneroOS will ***not*** be able to run on systems with either of these chips due to architecture limitations. 
 
