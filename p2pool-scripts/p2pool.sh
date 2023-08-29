@@ -1,3 +1,5 @@
+#!/bin/bash
+# Also found in https://github.com/4rkal/MoneroOS/blob/master/airootfs/root/p2pool.sh
 # FILE=/run/archiso/cowspace/p2pool_config.json
 FILE=p2pool_example_config.json #for testing
 if [ -f "$FILE" ]; then
