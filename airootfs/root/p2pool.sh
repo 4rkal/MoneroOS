@@ -18,30 +18,60 @@ if [ -f "$FILE" ]; then
     # No randomx no cache
     # No cache
     # Everything is false
-    if [ "$LIGHTMODE" = true ]; then
-        if [ "$NOCACHE" = true ]; then
-            echo "lightmode and no-cache"
-            p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode --no-cache
-        else #just lightmode
-            echo "lightmode"
-            p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode
-        fi
-    else #lightmode not true
-        if [ "$NORANDOMX" = true ]; then
-            if [ "$NOCACHE" = true ]; then #no cache and no randomx
-                echo "no cache no randomx"
-                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx --no-cache
-            else #just no randomx
-                echo "no randomx"
-                echo p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx
+    if [ "$MINI" = true ]; then
+        echo "mini"
+        if [ "$LIGHTMODE" = true ]; then
+            if [ "$NOCACHE" = true ]; then
+                echo "lightmode and no-cache"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode --no-cache --mini
+            else #just lightmode
+                echo "lightmode"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode --mini
+            fi
+        else #lightmode not true
+            if [ "$NORANDOMX" = true ]; then
+                if [ "$NOCACHE" = true ]; then #no cache and no randomx
+                    echo "no cache no randomx"
+                    p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx --no-cache --mini
+                else #just no randomx
+                    echo "no randomx"
+                    echo p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx --mini
+                fi
+            fi
+            if [ "$NOCACHE" = true ]; then #just no-cache
+                echo "no cache"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-cache --mini
+            else
+                echo "normal"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --mini
             fi
         fi
-        if [ "$NOCACHE" = true ]; then #just no-cache
-            echo "no cache"
-            p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-cache
-        else
-            echo "normal"
-            p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS
+    else
+        if [ "$LIGHTMODE" = true ]; then
+            if [ "$NOCACHE" = true ]; then
+                echo "lightmode and no-cache"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode --no-cache
+            else #just lightmode
+                echo "lightmode"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --light-mode
+            fi
+        else #lightmode not true
+            if [ "$NORANDOMX" = true ]; then
+                if [ "$NOCACHE" = true ]; then #no cache and no randomx
+                    echo "no cache no randomx"
+                    p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx --no-cache
+                else #just no randomx
+                    echo "no randomx"
+                    echo p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-randomx
+                fi
+            fi
+            if [ "$NOCACHE" = true ]; then #just no-cache
+                echo "no cache"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS --no-cache
+            else
+                echo "normal"
+                p2pool --host $HOST --rpc-port $RPCPORT --zmq-port $ZMQPORT --wallet $ADDRESS
+            fi
         fi
     fi
     
