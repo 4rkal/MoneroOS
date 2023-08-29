@@ -142,5 +142,7 @@ pacman-contrib
 wget
 # Monero
 xmrig
+p2pool
 # Other
 net-tools
+jq
