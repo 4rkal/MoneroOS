@@ -1,13 +1,1 @@
-[Unit]
-Description=P2Pool
-After=network.target
-StartLimitIntervalSec=0
-[Service]
-Type=simple
-Restart=always
-RestartSec=1
-User=root
-ExecStart=/root/p2pool.sh
-
-[Install]
-WantedBy=multi-user.target
+airootfs/etc/systemd/system/p2pool.service

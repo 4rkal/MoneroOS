@@ -1,3 +1,4 @@
+#!/bin/bash
 FILE=/run/archiso/cowspace/p2pool_config.json
 # FILE=p2pool_example_config.json #for testing
 if [ -f "$FILE" ]; then
