@@ -39,11 +39,14 @@ While full step-by-step instructions to create bootable media out of the MoneroO
 
 5. Follow the directions within the above [Installation & Configuration](#installation-and-configuration) section to use your newly generated `.img` file. 
 
+## P2Pool
+If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/wiki/P2Pool) wiki entry.
+
 ## TODO
 This is a basic TODO list. If you have any recommendations please don't hesitate to create a GitHub issue.
 - [ ] More user-friendly guides (Windows, etc.)
 - [ ] <a href="https://github.com/Bendr0id/xmrigCC">XMRigCC</a> support
-- [ ] <a href="https://p2pool.io/#pool">P2Pool</a> / <a href="https://p2pool.io/mini/#pool">P2Pool-Mini</a> support and/or instructions
+- [x] <a href="https://p2pool.io/#pool">P2Pool</a> / <a href="https://p2pool.io/mini/#pool">P2Pool-Mini</a> support and/or instructions
 
 ## Support/Feedback
 If you need assistance with anything or want to leave some feedback, here are the ways you can get in touch with with me:
