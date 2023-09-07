@@ -8,7 +8,7 @@ Please check out [this](https://github.com/4rkal/MoneroOS/wiki/Installation) wik
 ## P2Pool
 If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/wiki/P2Pool) wiki entry.
 
-# Compile from source
+## Compile from source
 If you want to see how to compile MoneroOS from source, check out [this](https://github.com/4rkal/MoneroOS/wiki/Compile-from-source) wiki entry. 
 
 ## TODO
