@@ -2,25 +2,8 @@
 
 MoneroOS is a live OS designed to easily begin mining <a href="getmonero.org">Monero</a> upon boot with only minimal configuration. It is inspired by <a href="https://www.nicehash.com/nhos-mining">NiceHash OS</a> and is based on <a href="https://archlinux.org">Arch Linux</a>, created using <a href="https://github.com/laurent85v/archuseriso">archuseriso</a>.
 
-## Compile your own `.img` file from source
-
-  ***Note:*** This must be done from a pre-existing installation of Arch Linux.
-
-1. Clone this repository using Git:
-
-    - `git clone https://github.com/4rkal/moneroOS.git`
-
-2. Install archuseriso from the <a href="https://aur.archlinux.org/packages/archuseriso">Arch User Repository (AUR)</a>:
-
-    - `yay -S archuseriso`
-
-3. Once archuseriso is installed, use the following command to build the `.img` file:
-
-    - `sudo aui-mkiso -m 'img' moneroOS/`
-
-4. When complete you should see a new directory displayed. Use `cd` to navigate into that new directory where you should find the newly generated `.img` file. 
-
-5. Follow the directions within the above [Installation & Configuration](#installation-and-configuration) section to use your newly generated `.img` file. 
+# Installation
+Please check out [this](https://github.com/4rkal/MoneroOS/wiki/Installation) wiki entry to see how to install MoneroOS to your usb drive
 
 ## P2Pool
 If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/wiki/P2Pool) wiki entry.
