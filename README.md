@@ -8,6 +8,9 @@ Please check out [this](https://github.com/4rkal/MoneroOS/wiki/Installation) wik
 ## P2Pool
 If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/wiki/P2Pool) wiki entry.
 
+# Compile from source
+If you want to see how to compile MoneroOS from source, check out [this](https://github.com/4rkal/MoneroOS/wiki/Compile-from-source) wiki entry. 
+
 ## TODO
 This is a basic TODO list. If you have any recommendations please don't hesitate to create a GitHub issue.
 - [ ] More user-friendly guides (Windows, etc.)
