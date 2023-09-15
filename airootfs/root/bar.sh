@@ -7,6 +7,8 @@ main (){
     window MoneroOS "red"
     append "`date`"
     addsep
+    append "IP: `ip addr show | grep -oP 'inet\s+\K[\d.]+' | awk '!/^127.0.0.1/'`"
+    addsep
     append_tabbed "Up since|`uptime | cut -f1 -d"," | sed 's/^ *//' | cut -f3- -d" "`" 2 "|"
     endwin
 
@@ -16,10 +18,15 @@ main (){
     append_tabbed `cat /proc/meminfo | awk '/MemFree/ {print "Free:" $2/1024}'` 2
     endwin
 
+    # Local IP
+    window "IP Address" "blue"
+    endwin
+
     # Xmrig Status
     window "XMRig status" "red"
     append "`journalctl -n 15 -u xmrig.service`"
     endwin
+    
 
 
 }
