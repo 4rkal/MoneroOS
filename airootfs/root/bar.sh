@@ -18,10 +18,6 @@ main (){
     append_tabbed `cat /proc/meminfo | awk '/MemFree/ {print "Free:" $2/1024}'` 2
     endwin
 
-    # Local IP
-    window "IP Address" "blue"
-    endwin
-
     # Xmrig Status
     window "XMRig status" "red"
     append "`journalctl -n 15 -u xmrig.service`"
