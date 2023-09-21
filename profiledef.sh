@@ -3,7 +3,7 @@
 
 iso_name="mos-console"
 iso_label="MOS"
-iso_publisher=""
+iso_publisher="4rkal"
 desktop="Console"
 iso_application="Archuseriso ${desktop} Live/Rescue medium"
 iso_version=""
