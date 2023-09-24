@@ -25,6 +25,8 @@ If you need assistance with anything or want to leave some feedback, here are th
 - Public matrix room `#moneroOS:matrix.org`
 - Email `4rkal@proton.me`
 
+## Donate
+
 If you would like to support MoneroOS development you can send some monero to the bellow address. Any contributions are greatly appreciated!
 
 `84ACcLqyu1b77k5CNgW46q1Mha7q6Qc99421H6M5cxhX3pGuxvJ2HSncu9NyfkcE46edUzwhPsTCwGRiAEhXRmyg6Lu3SUb`
