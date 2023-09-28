@@ -22,7 +22,6 @@ main (){
     window "XMRig status" "red"
     append "`journalctl -n 15 -u xmrig.service`"
     endwin
-    
 
 
 }
