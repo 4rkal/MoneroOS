@@ -12,7 +12,7 @@ If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/
 If you want to see how to compile MoneroOS from source, check out [this](https://github.com/4rkal/MoneroOS/wiki/Compile-from-source) wiki entry. 
 
 ## TODO
-Moved to [Todo.md](https://github.com/4rkal/MoneroOS/blob/master/TODO.md)
+Moved to [TODO.md](https://github.com/4rkal/MoneroOS/blob/master/TODO.md)
 
 ## Support/Feedback
 If you need assistance with anything or want to leave some feedback, here are the ways you can get in touch with with me:
