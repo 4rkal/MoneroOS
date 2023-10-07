@@ -25,4 +25,4 @@ main (){
 
 
 }
-main_loop -t 1 "$@"
+main_loop -t 10 "$@"
