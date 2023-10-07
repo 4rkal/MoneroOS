@@ -3,7 +3,8 @@ CONFIG_FILE=/run/archiso/cowspace/config.json
 MOCFILE=/run/archiso/moc
 if [ -f "$NTFS_FILE" ]; then
     echo "Copying data from NTFS partion"
-    mount -L MoneroOS-NTFS /mnt/ntfs
+    mount -L MoneroOS-NTFS /mnt/ntfs || echo "already mounted"
+    rm -rf /run/archiso/cowspace/*.json
     cp -r /mnt/ntfs/* /run/archiso/cowspace/
 else
   if sudo blkid -o list | grep -i 'MoneroOS-NTFS'; then
@@ -22,11 +23,10 @@ else
 fi
 
 # MoneroOcean
-# TODO uninstall xmrig and move the executable to /usr/bin
-# BROKEN
 url=$(jq -r '.pools[0].url' "$CONFIG_FILE")
 if [ -f "$MOCCFILE" ]; then
   systemctl stop xmrig.service p2pool.service 
+  rm /run/archiso/cowspace/xmrig*
   curl -s https://api.github.com/repos/MoneroOcean/xmrig/releases/latest | jq -r '.assets[] | select(.name | contains("tar.gz") and contains("compat")) | .browser_download_url' | xargs -I {} wget {} -P /run/archiso/cowspace/
   tar xvf /run/archiso/cowspace/xmrig*.tar.gz
   pacman -R --noconfirm xmrig
@@ -44,5 +44,4 @@ else
     systemctl start xmrig
     touch /run/archiso/moc
   fi
-ommand
 fi
