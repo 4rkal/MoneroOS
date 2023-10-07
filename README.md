@@ -1,6 +1,6 @@
 # MoneroOS
 
-MoneroOS is a live OS designed to easily begin mining <a href="getmonero.org">Monero</a> upon boot with only minimal configuration. It is inspired by <a href="https://www.nicehash.com/nhos-mining">NiceHash OS</a> and is based on <a href="https://archlinux.org">Arch Linux</a>, created using <a href="https://github.com/laurent85v/archuseriso">archuseriso</a>.
+MoneroOS is a live OS designed to easily begin mining <a href="https://getmonero.org">Monero</a> upon boot with only minimal configuration. It is inspired by <a href="https://www.nicehash.com/nhos-mining">NiceHash OS</a> and is based on <a href="https://archlinux.org">Arch Linux</a>, created using <a href="https://github.com/laurent85v/archuseriso">archuseriso</a>.
 
 # Installation
 Please check out [this](https://github.com/4rkal/MoneroOS/wiki/Installation) wiki entry to see how to install MoneroOS to your usb drive
