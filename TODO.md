@@ -12,3 +12,7 @@ This is the MoneroOS Todo document. You are welcome to add anything that you wan
 3. NTFY.sh for alerts
 4. Wifi connectivity script (read wifi.json)
 
+## UI/UX
+1. More user-friendly stat screen (bar.sh)
+2. Post-installation guide
+3. General tips and tricks guide
