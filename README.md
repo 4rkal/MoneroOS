@@ -12,13 +12,7 @@ If you want to use p2pool please check [this](https://github.com/4rkal/MoneroOS/
 If you want to see how to compile MoneroOS from source, check out [this](https://github.com/4rkal/MoneroOS/wiki/Compile-from-source) wiki entry. 
 
 ## TODO
-This is a basic TODO list. If you have any recommendations please don't hesitate to create a GitHub issue.
-- [ ] More user-friendly guides (Windows, etc.)
-- [ ] <a href="https://github.com/Bendr0id/xmrigCC">XMRigCC</a> support
-- [x] <a href="https://p2pool.io/#pool">P2Pool</a> / <a href="https://p2pool.io/mini/#pool">P2Pool-Mini</a> support and/or instructions
-- [ ] Automatic updates for p2pool
-- [ ] NTFS for windows read/write and auto copy to COWMOS
-- [ ] Installation wizard on first boot
+Moved to [Todo.md](https://github.com/4rkal/MoneroOS/blob/master/TODO.md)
 
 ## Support/Feedback
 If you need assistance with anything or want to leave some feedback, here are the ways you can get in touch with with me:
