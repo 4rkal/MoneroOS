@@ -16,3 +16,4 @@ This is the MoneroOS Todo document. You are welcome to add anything that you wan
 1. More user-friendly stat screen (bar.sh)
 2. Post-installation guide
 3. General tips and tricks guide
+4. Web UI instead of config files?
