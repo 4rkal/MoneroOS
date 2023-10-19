@@ -1,4 +1,5 @@
 # MoneroOS
+![GitHub](https://img.shields.io/github/license/4rkal/MoneroOS) ![Matrix](https://img.shields.io/matrix/moneroOS%3Amatrix.org?logo=matrix) ![GitHub all releases](https://img.shields.io/github/downloads/4rkal/MoneroOS/total)
 
 MoneroOS is a live OS designed to easily begin mining <a href="https://getmonero.org">Monero</a> upon boot with only minimal configuration. It is inspired by <a href="https://www.nicehash.com/nhos-mining">NiceHash OS</a> and is based on <a href="https://archlinux.org">Arch Linux</a>, created using <a href="https://github.com/laurent85v/archuseriso">archuseriso</a>.
 
