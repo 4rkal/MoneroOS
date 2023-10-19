@@ -7,7 +7,7 @@ if [ -f "$NTFS_FILE" ]; then
     rm -rf /run/archiso/cowspace/*.json
     cp -r /mnt/ntfs/* /run/archiso/cowspace/
 else
-  if sudo blkid -o list | grep -i 'MoneroOS-NTFS'; then
+  if blkid -o list | grep -i 'MoneroOS-NTFS'; then
     if (whiptail --title "MoneroOS Configuration Wizard" --yesno "It looks like you have a partition called MoneroOS-NTFS, would you like to copy all the data from there (do this if you have followed the windows guide)" 8 78); then
  	  mkdir -p /mnt/ntfs
 	  echo "Creating MountPoint"
@@ -24,7 +24,7 @@ fi
 
 # MoneroOcean
 url=$(jq -r '.pools[0].url' "$CONFIG_FILE")
-if [ -f "$MOCCFILE" ]; then
+if [ -f "$MOCFILE" ]; then
   systemctl stop xmrig.service p2pool.service 
   rm /run/archiso/cowspace/xmrig*
   curl -s https://api.github.com/repos/MoneroOcean/xmrig/releases/latest | jq -r '.assets[] | select(.name | contains("tar.gz") and contains("compat")) | .browser_download_url' | xargs -I {} wget {} -P /run/archiso/cowspace/
