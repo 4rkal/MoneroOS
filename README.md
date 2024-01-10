@@ -3,6 +3,8 @@
 
 ![logo](https://i.imgur.com/oHOxmLK.png)
 
+**WARNING! MoneroOS is currently not being maintained and will undergo a complete redesign. I do not recommend using it at this time**
+
 MoneroOS is a live OS designed to easily begin mining <a href="https://getmonero.org">Monero</a> upon boot with only minimal configuration. It is inspired by <a href="https://www.nicehash.com/nhos-mining">NiceHash OS</a> and is based on <a href="https://archlinux.org">Arch Linux</a>, created using <a href="https://github.com/laurent85v/archuseriso">archuseriso</a>.
 
 # Installation
